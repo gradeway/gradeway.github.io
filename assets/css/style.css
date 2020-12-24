@@ -80,8 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  margin: 0;
-  max-height: 42px;
+  height: 44px;
 }
 
 @media (max-width: 991px) {
@@ -115,8 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header2 .logo img {
-  margin: 0;
-  max-height: 42px;
+  height: 38px;
 }
 
 /*--------------------------------------------------------------
@@ -244,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 22px;
+  top: 29px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -257,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #FFF;
+  color: #233355;
 }
 
 .mobile-nav {
@@ -352,13 +350,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  position: relative;
-  padding: 140px 0 0 0;
-  background-image:url("../img/banner.png");
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center center;
-  overflow: visible;
+  padding: 130px 0 40px 0;
+  background-color: #42e077;
 }
 
 #hero h1 {
@@ -411,7 +404,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-img {
-  text-align: center;
+  height: auto; 
+  width: auto; 
+  max-width: 600px;
 }
 
 @media (max-width: 991px) {
@@ -431,12 +426,6 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 70px;
     line-height: 70px;
-  }
-}
-
-@media (min-width: 2000px) {
-  #hero {
-    background-size: 100% 100%;
   }
 }
 
@@ -508,6 +497,7 @@ section {
 }
 
 .breadcrumbs h2 {
+  margin-top: 20px;
   font-size: 24px;
   font-weight: 300;
   color: rgb(75, 83, 110);
@@ -706,6 +696,10 @@ section {
   overflow: visible;
 }
 
+.gallery .gallery-carousel img {
+  border-radius: 10px;
+}
+
 @media (min-width: 992px) {
   .gallery .gallery-carousel .center {
     border: 0px solid #42e077;
@@ -714,7 +708,6 @@ section {
     z-index: 1;
     transform: scale(1.2);
     margin-top: 10px;
-    border-radius: 25px;
   }
 }
 
@@ -801,16 +794,8 @@ section {
 }
 
 @media (max-width: 767px) {
-  .testimonials .testimonial-wrap {
-    padding-left: 0;
-  }
-  .testimonials .testimonial-item {
-    padding: 30px;
-    margin: 15px;
-  }
-  .testimonials .testimonial-item .testimonial-img {
-    position: static;
-    left: auto;
+  .testimonial-item img {
+    height: 0px;
   }
 }
 
