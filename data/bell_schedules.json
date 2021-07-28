@@ -1,0 +1,63 @@
+{
+	"friscoIsdBellSchedules": [
+		{
+			"name": "High School Schedule",
+			"bellPeriods": [
+				{
+					"name": "First Period",
+					"startHour": 9,
+					"startMinute": 0,
+					"endHour": 10,
+					"endMinute": 30,
+					"abbreviation": "1st",
+					"notify": true
+				},
+				{
+					"name": "Second Period",
+					"startHour": 10,
+					"startMinute": 35,
+					"endHour": 12,
+					"endMinute": 10,
+					"abbreviation": "2nd",
+					"notify": true
+				},
+				{
+					"name": "Advisory",
+					"startHour": 12,
+					"startMinute": 15,
+					"endHour": 12,
+					"endMinute": 45,
+					"abbreviation": "Adv",
+					"notify": true
+				},
+				{
+					"name": "Lunch",
+					"startHour": 12,
+					"startMinute": 45,
+					"endHour": 13,
+					"endMinute": 15,
+					"abbreviation": "Lun",
+					"notify": true
+				},
+				{
+					"name": "Third Period",
+					"startHour": 13,
+					"startMinute": 20,
+					"endHour": 14,
+					"endMinute": 50,
+					"abbreviation": "3rd",
+					"notify": true
+				},
+				{
+					"name": "Fourth Period",
+					"startHour": 14,
+					"startMinute": 55,
+					"endHour": 16,
+					"endMinute": 25,
+					"abbreviation": "4th",
+					"notify": true
+				}
+			]			
+		}
+	]
+}
