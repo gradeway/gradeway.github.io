@@ -103,9 +103,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
     height: 30px;
   }
-  .mobile-nav i {
-    height: 100px;
-  }
 }
 
 /*--------------------------------------------------------------*/
@@ -265,6 +262,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   cursor: pointer;
   text-align: right;
+}
+
+@media (max-width: 454px) {
+  .mobile-nav-toggle {
+    top: 22px;
+  }
 }
 
 .mobile-nav-toggle i {
@@ -492,6 +495,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 80%;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -755,13 +759,12 @@ section {
   .gallery .gallery-carousel img {
     transform: scale(1.);
     width: 290px;
-    margin-left: 110px;
+    margin-left: calc(20vw / 7 + 90px);
   }
 }
 
 @media (max-width: 575px) {
   .gallery .gallery-carousel img {
-    transform: scale(1.);
     width: 290px;
     margin-left: 35px;
   }
